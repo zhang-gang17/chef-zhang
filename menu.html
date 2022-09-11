@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <title>Menu | Chef Zhang</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" onclick="openNav()">
+        </div>
+        <div class="middle-section">
+            <!-- <img class="chef-zhang-logo"> -->
+            <p style="font-size: 50px; font-weight: 500; color: black; letter-spacing: 7px; text-transform: uppercase; text-align: center;">Chef Zhang</p>
+        </div>
+        <!-- kept so logo remains centered -->
+        <div class="right-section"></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+    </div>
+
+    <div class="seasonal-recommendations">
+        <div class="heading">
+            <p class="heading-text">Seasonal Recommendations</p>
+            <hr class="line">
+            <p class="body-text">It's fall, which means the end of harvest for fruits and vegetables of all kind: 
+                almost anything and everything is in-season now. As for meat, it's prime cattle (and marbling) season.
+                This is due to grass being richer with seed content to reproduce for the upcoming year. So if you fancy a 
+                juicy steak, there's no better time than now.
+            </p>
+        </div>
+    </div>
+
+    <div class="button-center">
+        <button onclick="window.open('https://forms.gle/giGdrwnC3fztWgWP7', 'blank');" type="button" class="btn order">Order Now</button>
+    </div>
+
+    <div class="appetizers">
+        <div class="heading">
+            <p class="heading-text">Appetizers</p>
+            <hr class="line">
+        </div>
+        <div class="menu-list">
+            <p class="food-item">Salmon Fillet</p>
+            <p class="food-price">Price: $12</p>
+            <p class="food-desc">Grilled salmon fillet basted with butter and garlic. Topped with parsley, freshly ground black pepper and some lemon juice.</p>
+
+            <p class="food-item">Bruschetta</p>
+            <p class="food-price">Price: $8</p>
+            <p class="food-desc">An Italian classic made using ciabatta bread toasted with olive oil, roma tomatoes, fresh basil, and balsamic vinegar.</p>
+
+            <p class="food-item">Miso Soup</p>
+            <p class="food-price">Price: $8</p>
+            <p class="food-desc">A Japanese go-to made with awase dashi, shiro miso, tofu, kikurage, and aonegi.</p>
+
+            <p class="food-item">Portobello Mushroom Melt</p>
+            <p class="food-price">Price: $6</p>
+            <p class="food-desc">An oven toasted portobello mushroom topped with pesto, shallots, and grated parmigiano reggiano.</p>
+        </div>
+    </div>
+
+    <div class="entrees">
+        <div class="heading">
+            <p class="heading-text">Entre&eacute;s</p>
+            <hr class="line">
+        </div>
+        <div class="menu-list">
+            <p class="food-item">Classic Steak</p>
+            <p class="food-price">Price: Varies</p>
+            <p class="food-desc">Your choice of New York Strip or Sirloin, seasoned using good ol' salt & pepper before being basted with butter and garlic. 
+                Served with a side of either asparagus or brussel sprouts before being topped off with a b&eacute;arnaise sauce.</p>
+
+            <p class="food-item">Classic Risotto</p>
+            <p class="food-price">Price: Varies</p>
+            <p class="food-desc">Risotto made the authentic Italian way, painstakingly stirred with hot stock added one ladleful at a time. 
+                Build your bowl to suit your own tastes, available in both vegetarian and non-vegatarian options.</p>
+
+            <p class="food-item">Chow Mein</p>
+            <p class="food-price">Price: Varies</p>
+            <p class="food-desc">Chow mein made with either chicken or shrimp, nappa cabbage, celery, julienned carrots, and beansprouts. 
+                Finished with freshly minced garlic and a soy/hoisin sauce mix.</p>
+            
+            <p class="food-item">Tonkotsu Ramen</p>
+            <p class="food-price">Price: $16</p>
+            <p class="food-desc">A hearty bowl of tonkotsu ramen with shoyu tare and assorted toppings including seasame seeds, kikurage, nori, aonegi, ajitama, 
+                and 2 slices of chashu; additional toppings available upon request.</p>
+
+            <p class="food-item">Fettuccine Alfredo</p>
+            <p class="food-price">Price: $15</p>
+            <p class="food-desc">Authentic fettuccine alfredo made with just butter, parmigiano reggiano, and freshly ground black pepper.</p>
+
+            <p class="food-item">Shrimp Tofu</p>
+            <p class="food-price">Price: $10</p>
+            <p class="food-desc">A generous serving of shrimp seasoned with cooking wine and delicate tofu. Finished with oyster sauce, minced garlic, and scallions for 
+                a warm rice dish with a slight kick.
+            </p>
+
+            <!-- <p class="food-item">Yangzhou Fried Rice</p>
+            <p class="food-price">Price: $12</p>
+            <p class="food-desc">House-style fried rice with carrots, peas, corn, char siu, shrimp, egg, scallion, and either oyster or soy sauce.</p> -->
+        </div>
+    </div>
+
+    <div class="desserts">
+        <div class="heading">
+            <p class="heading-text">Desserts</p>
+            <hr class="line">
+        </div>
+        <div class="menu-list">
+            <p class="soon">Currently being revised, check-back soon for an improved list of offerings!</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright &copy; 2022, Chef Zhang
+    </div>
+</body>
+</html>

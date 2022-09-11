@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/cards.css">
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <title>Home | Chef Zhang</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" onclick="openNav()">
+        </div>
+        <div class="middle-section">
+            <!-- <img class="chef-zhang-logo"> -->
+            <p style="font-size: 50px; font-weight: 500; color: black; letter-spacing: 7px; text-transform: uppercase; text-align: center;">Chef Zhang</p>
+        </div>
+        <!-- kept so logo remains centered -->
+        <div class="right-section"></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+    </div>
+    <div class="welcome">
+        <div class="heading">
+            <p class="heading-text">Welcome</p>
+            <hr class="line">
+            <p class="welcome-quote">" 100% of the personal chef at a 50% of the cost. "</p>
+            <p class="body-text">An exquisite dining experience shouldn't break the bank. 
+                That's the motivation behind <span class="chef-zhang-text">Chef Zhang </span>: 
+                it's a chance for those who don't want to or can't spend an <b>exorbiant</b> amount just 
+                for the sake of a unique dining experience.
+            </p>
+            <p class="body-text">So check out my year-round menu and seasonal recommendations, and if anything catches 
+                your fancy, feel free to book me for the <b>most affordable yet premium meal of your life</b>.
+            </p>
+        </div>
+    </div>
+
+    <div class="button-center">
+        <button onclick="window.open('https://forms.gle/giGdrwnC3fztWgWP7', 'blank');" type="button" class="btn order">Order Now</button>
+    </div>
+
+    <div class="reviews">
+        <div class="heading">
+            <p class="heading-text">Customer Reviews</p>
+            <hr class="line">
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="photos/edited/steak.JPG" alt="" class="card-image">
+            <div class="card-content">
+                <p>Watching the b&eacute;arnaise sauce be made live was amazing! Steak was a perfect rare, 
+                    and delicious asparagus made with the leftover seasoning from the pan.
+                </p>
+            </div>
+            <div class="card-info">
+                <div>
+                    Andy Lin
+                </div>
+                <div>
+                    4/5
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="photos/edited/salmon.JPG" alt="" class="card-image">
+            <div class="card-content">
+                <p>The salmon had an exquisite cook, flaky but moist and tender. Just enough butter for flavor with the fresh parsley and lemon 
+                    juice tying it all together.
+                </p>
+            </div>
+            <div class="card-info">
+                <div>
+                    Anonymous
+                </div>
+                <div>
+                    5/5
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="photos/edited/bruschetta.JPG" alt="" class="card-image">
+            <div class="card-content">
+                <p>The bread was toasted to a perfect level of crunchiness, and the tomato mix was absolutely perfect: not too acidic and very 
+                    refreshing with the basil.
+                </p>
+            </div>
+            <div class="card-info">
+                <div>
+                    Gloria Yang
+                </div>
+                <div>
+                    5/5
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright &copy; 2022, Chef Zhang
+    </div>
+</body>
+</html>
