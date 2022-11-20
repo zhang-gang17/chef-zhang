@@ -36,3 +36,21 @@
     text-align: center;
     padding-top: 25px;
 }
+
+@media(max-width:767px){
+    .menu-list{
+        width: 80%;
+    }
+    .food-item{
+        font-size: 22px;
+    }
+    .food-price{
+        font-size: 18px;
+    }
+    .food-desc{
+        font-size: 14px;
+    }
+    .soon{
+        font-size: 22px;
+    }
+}
