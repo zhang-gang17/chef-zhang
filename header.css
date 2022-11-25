@@ -1,0 +1,49 @@
+.header {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(238, 238, 238);
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    height: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+/* set to same width as left-section to ensure logo remains centered */
+.right-section {
+    display: flex;
+    align-items: center;
+    width: 75px;
+}
+
+@media(max-width:767px){
+    header{
+        max-height: 60px;
+    }
+}

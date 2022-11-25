@@ -1,0 +1,62 @@
+.seasonal-recommendations {
+    padding-top: 175px;
+}
+
+.appetizers, .entrees, .desserts {
+    margin-top: 75px;
+}
+
+.menu-list {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.food-item {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.food-price {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.food-desc {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+.soon {
+    font-family: 'EB Garamond', serif;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+@media(max-width:767px){
+    .menu-list{
+        width: 80%;
+    }
+    .food-item{
+        font-size: 22px;
+    }
+    .food-price{
+        font-size: 18px;
+    }
+    .food-desc{
+        font-size: 14px;
+    }
+    .soon{
+        font-size: 22px;
+    }
+    .seasonal-recommendations{
+        padding-top: 150px;
+    }
+    .appetizers, .entrees, .desserts {
+        margin-top: 50px;
+    }
+}
