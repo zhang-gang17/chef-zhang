@@ -22,9 +22,3 @@
     font-family: Inter, Arial;
     font-size: 14px;
 }
-
-@media(max-width:767px){
-    footer{
-        height: 25px;
-    }
-}
