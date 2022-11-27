@@ -37,7 +37,7 @@
     padding-top: 25px;
 }
 
-@media(max-width:767px){
+@media screen and (max-width:767px) {
     .menu-list{
         width: 80%;
     }
@@ -53,4 +53,10 @@
     .soon{
         font-size: 22px;
     }
+    .seasonal-recommendations{
+        padding-top: 100px;
+    }
+    .appetizers, .entrees, .desserts {
+        margin-top: 50px;
+    }  
 }

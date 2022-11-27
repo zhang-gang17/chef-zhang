@@ -56,7 +56,7 @@ body, html {
     margin-bottom: 0;
 }
 
-@media(max-width:767px){
+@media screen and (max-width:767px) {
     .line{
         width: 100%;
     }

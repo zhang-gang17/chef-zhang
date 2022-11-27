@@ -12,3 +12,14 @@
 .reviews {
     margin-top: 75px;
 }
+
+@media screen and (max-width:767px) {
+    .welcome-quote{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .welcome{
+        padding-top: 100px;
+    }
+}
